@@ -41,6 +41,36 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "Ibrahem Younas",
+      "image": "https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/f/l/FlytrapfamilySkpPudney.jpg?crop=196%2C0%2C3606%2C2705&wid=640&hei=480&scl=5.635416666666667",
+      "price": "24.99",
+      "id": 8
+    },
+    {
+      "name": "Ibrahem Younas",
+      "image": "https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/f/l/FlytrapfamilySkpPudney.jpg?crop=196%2C0%2C3606%2C2705&wid=640&hei=480&scl=5.635416666666667",
+      "price": "24.99",
+      "id": 9
+    },
+    {
+      "name": "Ibrahem Younas",
+      "image": "https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/f/l/FlytrapfamilySkpPudney.jpg?crop=196%2C0%2C3606%2C2705&wid=640&hei=480&scl=5.635416666666667",
+      "price": "24.99",
+      "id": 10
+    },
+    {
+      "name": "Ibrahem Younas",
+      "image": "",
+      "price": "24.99",
+      "id": 11
+    },
+    {
+      "name": "pat",
+      "image": "https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/f/l/FlytrapfamilySkpPudney.jpg?crop=196%2C0%2C3606%2C2705&wid=640&hei=480&scl=5.635416666666667",
+      "price": "3.50",
+      "id": 12
     }
   ]
 }
