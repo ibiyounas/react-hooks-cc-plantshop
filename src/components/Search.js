@@ -1,18 +1,22 @@
-import React from "react";
 
-function Search({searchInput, onSearchInput}) {
+import React, { useContext } from "react";
+import { PlantContext } from "./App";
+
+function Search() {
+  const { search, handleSearchChange } = useContext(PlantContext);
   return (
     <div className="searchbar">
       <label htmlFor="search">Search Plants:</label>
       <input
+        value={search}
         type="text"
         id="search"
-        value={searchInput}
         placeholder="Type a name to search..."
-        onChange={(e) => onSearchInput(e.target.value)}
-      />
-    </div>
-  );
-}
 
-export default Search;
+        onChange={handleSearchChange}
+        />
+      </div>
+    );
+  }
+  
+  export default Search;
