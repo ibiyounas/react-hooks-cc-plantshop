@@ -3,9 +3,9 @@ import PlantCard from "./PlantCard";
 
 function PlantList({plants}) {
   return (
-    <ul className="cards">
+    <ul className="cards" id="plant-item">
       {plants.map((plant) => (
-      <PlantCard key = {plant.id} plant = {plant}></PlantCard>
+      <PlantCard key = {plant.id} name={plant.name} image={plant.image} price={plant.price} ></PlantCard>
     ))}</ul>
   );
 }

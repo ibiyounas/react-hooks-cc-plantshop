@@ -6,6 +6,8 @@ import { useState, useEffect } from "react";
 
 function PlantPage() {
   const [plants, setPlants] = useState([]);
+
+
   useEffect(() => {
     fetch("http://localhost:6001/plants")
     .then((resp) => resp.json())
@@ -20,6 +22,7 @@ function PlantPage() {
   }
 
   const [searchInput, setSearchInput] = useState("")
+  
   function onSearchInput(searchText) {
     setSearchInput(searchText)
   }
